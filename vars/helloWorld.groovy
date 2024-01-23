@@ -1,5 +1,5 @@
-def call() {
+def call(String name="john") {
 
-    bat "echo Hello  Today is "
+    bat "echo Hello ${name} "
 
 }
