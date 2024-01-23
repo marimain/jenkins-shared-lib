@@ -1,5 +1,5 @@
 def call() {
 
-    sh "echo Hello  Today is "
+    bat "echo Hello  Today is "
 
 }
