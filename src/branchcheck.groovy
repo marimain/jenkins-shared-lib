@@ -1,3 +1,3 @@
-def check(String branch){
+def call(String branch){
 	echo ${branch}
 }
