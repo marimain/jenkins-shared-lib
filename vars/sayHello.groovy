@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
 
 def call(String name = 'human') {
-  bat "echo Hello world."
+  sh "echo Hello world."
 }
