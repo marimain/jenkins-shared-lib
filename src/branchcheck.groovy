@@ -1,3 +1,3 @@
 def check(String branch){
-	echo false
+	echo ${branch}
 }
