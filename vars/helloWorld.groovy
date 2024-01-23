@@ -1,5 +1,5 @@
 def call() {
 
-    sh "echo Hello  Today is ${config.dayOfWeek}."
+    sh "echo Hello  Today is "
 
 }
