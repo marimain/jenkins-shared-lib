@@ -1,3 +1,7 @@
-def call(String branch){
-	bat " branch version: ${branch}"
+def info(message) {
+    echo "INFO: ${message}"
+}
+
+def warning(message) {
+    echo "WARNING: ${message}"
 }
