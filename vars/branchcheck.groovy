@@ -1,3 +1,3 @@
 def call(String branch){
-	echo "${branch}"
+	bat " branch version: ${branch}"
 }
