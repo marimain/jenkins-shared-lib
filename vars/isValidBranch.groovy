@@ -1,5 +1,3 @@
-def call(String name="john") {
-
-    bat "echo Hello ${name} "
-
+def validation(message) {
+    echo "INFO: ${message}"
 }
