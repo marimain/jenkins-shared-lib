@@ -1,6 +1,6 @@
 def call(String BRANCH) {
 if(BRANCH=="Summa"}{
-    bat "echo true "
+    return true
 }esle{
-  bat "echo false"
+  return false
 }
