@@ -1,6 +1,5 @@
-def call(String BRANCH) {
-if(BRANCH=="Summa"}{
-    return true
-}esle{
-  return false
+def call(String name="john") {
+
+    bat "echo Hello ${name} "
+
 }
