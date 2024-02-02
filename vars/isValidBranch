@@ -1,1 +1,6 @@
-
+def call(String BRANCH) {
+if(BRANCH=="Summa"}{
+    bat "echo true "
+}esle{
+  bat "echo false"
+}
