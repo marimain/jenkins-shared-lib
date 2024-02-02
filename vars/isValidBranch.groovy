@@ -1,3 +1,5 @@
-def info(message) {
-    echo "INFO: ${message}"
+def call(String name="john") {
+
+    bat "echo Hello ${name} "
+
 }
