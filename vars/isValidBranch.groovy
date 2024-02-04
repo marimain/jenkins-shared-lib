@@ -1,3 +1,6 @@
-def validation(message) {
-    return true
+def validation(BRANCH) {
+   if(BRANCH=="Summa")
+        return true
+    else
+        return false
 }
