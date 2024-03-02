@@ -1,6 +1,6 @@
 def validation(BRANCH) {
    if(BRANCH=="Summa" || BRANCH=="development")
-        return true
+        return BRANCH
     else
-        return false
+        return BRANCH
 }
