@@ -1,5 +1,5 @@
 def validation(BRANCH) {
-   if(BRANCH.equals("Summa") || BRANCH.equals( "development" ))
+   if(BRANCH.equalsIgnoreCase("Summa") || BRANCH.equalsIgnoreCase( "development" ))
         return true
     else
         return false
